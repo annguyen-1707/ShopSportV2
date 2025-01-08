@@ -1,0 +1,88 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 11, 2024, 10:13:48 PM
+    Author     : -Asus-
+*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 100px; /* Giảm khoảng cách với footer */
+    margin-top: 50px; /* Khoảng cách với menu */
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50; /* Màu nền tiêu đề bảng */
+    color: white; /* Màu chữ trắng */
+}
+
+tr:nth-child(even) {
+    background-color: #e9f7e9; /* Màu nền cho các dòng chẵn */
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff; /* Màu nền cho các dòng lẻ */
+}
+
+.action-buttons button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Màu nền nút */
+    color: white; /* Màu chữ trắng */
+    border: none;
+    border-radius: 5px; /* Bo tròn góc */
+    font-size: 16px;
+    font-weight: bold; /* Chữ đậm */
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu khi hover */
+}
+
+.action-buttons button:hover {
+    background-color: #45a049; /* Màu khi hover */
+}
+
+.action-buttons button:active {
+    background-color: #388e3c; /* Màu khi nhấn */
+
+}
+button {
+    background-color: #4CAF50; /* Màu nền mặc định */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049; /* Màu khi di chuột */
+}
+
+button.cancel-order {
+    background-color: red; /* Màu đỏ cho nút hủy */
+}
+
+button.cancel-order:hover {
+    background-color: darkred; /* Màu khi di chuột lên nút hủy */
+}
+button {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+

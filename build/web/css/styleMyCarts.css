@@ -1,0 +1,110 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 11, 2024, 9:41:10 PM
+    Author     : -Asus-
+*/
+
+body {
+    background-color: #f0f0f5; /* Màu nền xám nhạt */
+    color: #333333;          /* Màu chữ tối */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-bottom: 50px;
+}
+h1 {
+    border-bottom: 2px solid #555555;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #222222;
+}
+table {
+    margin: 0 auto;
+    width: 60%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    border: 1px solid #cccccc;
+    padding: 10px 15px;
+    text-align: center;
+}
+th {
+    background-color: #4CAF50; /* Màu xanh lá */
+    color: #ffffff;
+}
+tr:nth-child(even) {
+    background-color: #e9f7e9; /* Màu xanh nhạt cho các hàng chẵn */
+}
+tr:nth-child(odd) {
+    background-color: #ffffff; /* Màu trắng cho các hàng lẻ */
+}
+a {
+    color: #0066cc; /* Màu xanh dương */
+    text-decoration: none;
+    /*                font-weight: bold;*/
+}
+a:hover {
+    text-decoration: underline;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+hr {
+    border: 0;
+    border-top: 1px solid #bbbbbb;
+    margin: 20px 0;
+}
+footer {
+    margin-top: 100px; /* Tạo khoảng cách 50px từ nội dung đến footer */
+}
+#comeHome {
+    display: inline-block; /* Tạo khối hiển thị gọn gàng */
+    font-size: 14px; /* Tăng kích thước chữ */
+    color: #ffffff; /* Màu chữ */
+    background-color: #007bff; /* Màu nền xanh */
+    text-decoration: none; /* Loại bỏ gạch chân */
+    padding: 10px 20px; /* Thêm khoảng cách trong thẻ */
+    border-radius: 8px; /* Bo tròn góc */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+    transition: all 0.3s ease; /* Hiệu ứng chuyển đổi */
+}
+
+#comeHome:hover {
+    background-color: #0056b3; /* Đổi màu nền khi hover */
+    color: #f8f9fa; /* Đổi màu chữ khi hover */
+    transform: scale(1.05); /* Phóng to nhẹ khi hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Tăng đổ bóng */
+}
+a {
+    text-decoration: none; /* Bỏ gạch chân */
+}
+
+/* Phong cách riêng cho nút + và - */
+.quantity-button {
+    display: inline-block;
+    background-color: #007BFF; /* Màu xanh dương */
+    color: white; /* Màu chữ trắng */
+    padding: 5px 10px; /* Khoảng cách trong nút */
+    font-size: 16px; /* Kích thước chữ */
+    font-weight: bold; /* Chữ đậm */
+    border-radius: 5px; /* Bo góc nút */
+    margin: 0 5px; /* Khoảng cách giữa các nút */
+    transition: background-color 0.3s ease; /* Hiệu ứng hover */
+    max-width: 5px;
+}
+
+.quantity-button:hover {
+    background-color: #0056b3; /* Màu khi hover */
+}
